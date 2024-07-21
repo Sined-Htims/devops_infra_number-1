@@ -1,0 +1,5 @@
+IP: 194.32.248.59;
+name_taski: https://practicetask.ddns.net/;
+name_kittygram: https://practicekitty.ddns.net/;
+login: root;
+password: qwer;

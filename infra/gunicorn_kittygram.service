@@ -1,0 +1,14 @@
+[Unit]
+
+Description=KITTYYYYYYYYYYYGRAM Unit !!!!!!
+After=network.target
+
+[Service]
+
+User=root
+WorkingDirectory=/root/devops_infra_number-1/backend/
+ExecStart=/root/devops_infra_number-1/backend/venv/bin/gunicorn --bind 0.0.0.0:8080 kittygram_backend.wsgi
+
+[Install]
+
+WantedBy=multi-user.target
